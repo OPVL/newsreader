@@ -1,0 +1,22 @@
+{
+  "name": "newsreader",
+  "version": "1.0.0",
+  "description": "A simple PWA newsreader",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OPVL/newsreader.git"
+  },
+  "author": "opvl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OPVL/newsreader/issues"
+  },
+  "homepage": "https://github.com/OPVL/newsreader#readme",
+  "dependencies": {
+    "workbox-sw": "^4.3.1"
+  }
+}

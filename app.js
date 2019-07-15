@@ -14,7 +14,7 @@ window.addEventListener('load', async e => {
 
     if ('serviceWorker' in navigator){
         try {
-            navigator.serviceWorker.register('sw.js');
+            navigator.serviceWorker.register('newsWorker.js');
             console.log('service worker registered');
         } catch (error) {
             console.error('service worker registration failed: ' + error);            
